@@ -1,0 +1,56 @@
+module Ground_Console
+{
+	struct positionInfo
+	{
+		float x;
+		float y;
+		float z;
+	};
+	struct camerapInfo
+	{
+		float x;
+		float y;
+	};
+        struct camerapzcInfo
+	{
+		float x;
+		float y;
+	};
+        struct camerapfuInfo
+	{
+		float x;
+		float y;
+	};
+	struct velInfo
+	{
+		float x;
+		float y;
+		float z;
+	};
+	struct accInfo
+	{
+		float x;
+		float y;
+		float z;
+	};
+	struct velocityInfo
+	{
+		float v;
+		float w;
+	};
+	interface Ground_Vehicle_Console
+		{
+			void sendCurrentYawangle(in float yawangle, in short vehicleid);
+			void sendCurrentDistance(in float distance, in short vehicleid);
+			void sendCurrentZc(in float zc, in short vehicleid);
+			void sendCurrentSensor(in float sensor, in short vehicleid);
+			void sendCurrentBattery(in float battery, in short vehicleid);
+			void sendCurrentPosition(in positionInfo position, in short vehicleid);
+			void sendCurrentCamerap(in camerapInfo camerap, in short vehicleid);
+                        void sendCurrentCamerapzc(in camerapzcInfo camerapzc, in short vehicleid);
+                        void sendCurrentCamerapfu(in camerapfuInfo camerapfu, in short vehicleid);
+		        void sendCurrentVel(in velInfo vel, in short vehicleid);
+			void sendCurrentAcc(in accInfo acc, in short vehicleid);
+			void sendCurrentVelocity(in velocityInfo velocity, in short vehicleid);
+		};
+};
