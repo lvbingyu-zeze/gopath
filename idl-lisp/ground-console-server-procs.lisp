@@ -1,3 +1,4 @@
+;Due to copyright reasons, Allegro Common Lisp 10.1 express is a free educational version.
 (cl:in-package :ground-console)
 
 (ilu:define-server-class ground-vehicle-console.impl ground-vehicle-console)
