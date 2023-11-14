@@ -1,13 +1,3 @@
-# Stubs for "Ground-Console"
-#
-# This file was automatically generated with ILU (version 2.0beta1) tools
-# at Wed Nov  9 09:42:50 2022 by `软智科技有限责任公司'
-# running "D:/ILUHOME/bin/python-stubber.exe" of Thu Jun 17 15:35:05 2021
-# on "D:/ILUHOME/interfaces/ground_console.idl" of Wed Nov  9 09:41:12 2022,
-# and "D:/ILUHOME/interfaces/ilu.isl" of Tue Apr 15 16:53:40 2014#
-# ILU is Copyright 1991-1999 Xerox Corporation, All Rights Reserved.
-# ILU information:  ftp://ftp.parc.xerox.com/pub/ilu/ilu.html.
-
 _imported_modules = {};
 import iluRt ; _imported_modules['iluRt'] = iluRt; _imported_modules['ilu'] = iluRt;
 iluRt.CheckStubConsistency('2.0beta1', 'v2 (post-2.0alpha12)');
