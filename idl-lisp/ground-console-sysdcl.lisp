@@ -1,5 +1,3 @@
-;;;-*- Package: USER; Syntax: Common-Lisp; Mode: Lisp; Base: 10 -*-
-
 (in-package :user)
 
 (eval-when (load eval)
