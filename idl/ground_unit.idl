@@ -1,0 +1,18 @@
+module Ground_Unit
+{
+	struct targetpointInfo
+	{
+		float x;
+		float y;
+	};
+	struct velocityInfo
+	{
+		float v;
+		float w;
+	};
+	interface Ground_Vehicle
+		{
+			boolean setCurrentTargetpoint(in targetpointInfo targetpoint);
+			boolean setCurrentVelocity(in velocityInfo velocity, in boolean velocitytag);
+		};
+};
