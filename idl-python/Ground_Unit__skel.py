@@ -1,13 +1,3 @@
-# Skeletons for "Ground-Unit"
-#
-# This file was automatically generated with ILU (version 2.0beta1) tools
-# at Fri Oct 22 16:23:55 2021 by `软智科技有限责任公司'
-# running "D:/ILUHOME/bin/python-stubber.exe" of Thu Jun 17 15:35:05 2021
-# on "D:/ILUHOME/interfaces/ground_unit.idl" of Fri Oct 22 14:06:47 2021,
-# and "D:/ILUHOME/interfaces/ilu.isl" of Tue Apr 15 16:53:40 2014#
-# ILU is Copyright 1991-1999 Xerox Corporation, All Rights Reserved.
-# ILU information:  ftp://ftp.parc.xerox.com/pub/ilu/ilu.html.
-
 import sys;
 _imported_modules = {};
 import iluRt ; _imported_modules['iluRt'] = iluRt; _imported_modules['ilu'] = iluRt;
