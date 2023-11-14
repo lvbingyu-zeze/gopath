@@ -1,14 +1,3 @@
-;;; -*- Mode:Lisp;  Package: ground-console;  Syntax: COMMON-LISP;  Base: 10 -*-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; This file was automatically generated with ILU (version 2.0beta1) tools
-;;; at Fri Dec 30 12:41:17 2022 by `软智科技有限责任公司'
-;;; running "D:/ILUHOME/bin/lisp-stubber.exe" of Mon Feb 28 19:47:37 2022
-;;; on "D:/ILUHOME/interfaces/ground_console.idl" of Fri Dec 30 03:36:26 2022,
-;;; and "D:/ILUHOME/interfaces/ilu.isl" of Tue Apr 15 16:53:40 2014;;;
-;;; ILU is Copyright 1991-1999 Xerox Corporation, All Rights Reserved.
-;;; ILU information:  ftp://ftp.parc.xerox.com/pub/ilu/ilu.html.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 (cl:defpackage :ground-console
   (:use :common-lisp :ilu)
   (:shadow
